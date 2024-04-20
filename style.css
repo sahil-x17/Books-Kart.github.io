@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f0fbf2;
+}
+
+#logo {
+  width: 15%;
+  height: 100%;
+}
+
+.logo--name {
+  display: flex;
+  gap: 2rem;
+}
+
+.kart {
+  color: orange;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+.books {
+  font-family: "Lucida Handwriting", Cursive;
+  color: black;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  justify-content: space-evenly;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 4.8rem;
+  margin: 3rem;
+}
+
+.nav--link {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav--link:hover {
+  cursor: pointer;
+  color: #3f834a;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.hero-intro {
+  width: 80%;
+  line-height: 1;
+  margin-left: 20rem;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.intro_large {
+  font-size: 4.2rem;
+}
+
+.intro_small {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+  margin-right: 4rem;
+  /* margin-left: 6rem; */
+  color: #d2f4d8;
+  font-weight: 600;
+  background-color: #40c057;
+  border-radius: 1rem;
+  border: 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #3f834a;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.hero-image {
+  width: 50%;
+  margin-left: 15rem;
+  margin-top: 10rem;
+}
+
+.greet {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+.about--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image-container {
+  position: relative;
+  bottom: -50%;
+  width: 100%;
+}
+
+.about {
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 35rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.para {
+  margin-bottom: 2rem;
+}
+
+.about-para {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 40rem;
+  margin-left: 40rem;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.feedback_section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-right: 25rem;
+  padding-left: 25rem;
+}
+
+/* .hidden { */
+/* visibility: hidden; */
+/* opacity: 0; */
+/* } */
+
+.feedback {
+  display: block;
+  font-size: 1.5rem;
+  background-color: #fff;
+  padding: 2rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 2rem;
+}
+.feedback-title {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-size: 2rem;
+  text-decoration: underline;
+  /* margin-left: 35rem; */
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  display: inline-block;
+  border: none;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.feedback-entry {
+  margin-top: 2rem;
+}

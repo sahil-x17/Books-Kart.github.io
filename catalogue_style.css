@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f0fbf2;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 4.8rem;
+  margin-bottom: 3rem;
+  background-color: #c4d9c8;
+  box-shadow: bottom 0.5rem #444;
+  padding: 2rem;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+/* .main-nav-list.sticky {
+  position: fixed;
+  background-color: rgba(196, 217, 200, 0.9);
+} */
+
+.nav_item {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav_item:hover {
+  cursor: pointer;
+  color: #3f834a;
+  font-weight: 700;
+  transition: all 0.3s;
+  border: 0.1rem solid #444;
+}
+
+.card {
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.catalogue {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  row-gap: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/* .hidden {
+  visibility: hidden;
+  opacity: 0;
+} */
+
+.title {
+  padding: 2rem;
+  display: inline-block;
+  background-color: #c4d9c8;
+}

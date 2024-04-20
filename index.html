@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books'Kart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav main-nav">
+        <div class="logo--name">
+          <img
+            src="books.jpeg"
+            class="logo-img"
+            alt="Books'kart Logo"
+            id="logo"
+          />
+          <h1 class="store_Name">
+            <span class="books">Books'</span><span class="kart">Kart</span>
+          </h1>
+        </div>
+
+        <ul class="main-nav-list">
+          <li>
+            <a class="nav--link nav__about" href="#About"> About </a>
+          </li>
+          <li>
+            <a class="nav--link nav__feedback" href="#feedback_section"> Feedback </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <section class="section hero--section">
+          <div class="hero-intro">
+            <h1 class="intro_large">
+              Prepare for your exams, fully equiped with books
+            </h1>
+            <p class="intro_small">
+              Kick Start preparing for your exams, semisters, competitions with
+              the books all you need. Get all kinds of books for each department
+              at discounted price now-
+            </p>
+            <button class="btn btn--login">Login</button>
+            <button class="btn btn--register">Register</button>
+          </div>
+          <div><img src="pngwing.com (1).png" class="hero-image" /></div>
+        </section>
+        <hr />
+        <h3 class="greet">Keep learning !</h3>
+        <hr>
+        <section class="about" id="About">
+          <h2 class="about-title">About us-</h2>
+          <div class="para">
+
+            <p class="about-para">Welcome to our online bookstore catering to the needs of engineering students worldwide. We understand the challenges and demands that come with pursuing an engineering degree, which is why we're dedicated to providing a comprehensive collection of books tailored to your academic journey.
+            </p>
+            <p class="about-para">At our bookstore, we curate a diverse selection of titles covering a wide range of engineering disciplines, ensuring that you have access to the latest textbooks, reference materials, and supplementary resources to support your studies. From fundamental principles to advanced topics, we strive to be your one-stop destination for all your educational needs.
+            </p>
+            <p class="about-para">Our team consists of passionate individuals who are committed to fostering a supportive learning environment for students. We're here to assist you in finding the right resources to enhance your understanding and excel in your academic pursuits. Whether you're delving into mechanical, electrical, civil, computer, or any other branch of engineering, we've got you covered.
+            </p>
+            <p class="about-para">In addition to academic textbooks, we also offer a selection of popular science and engineering literature, inspiring biographies, and career development guides to broaden your horizons and fuel your passion for innovation.
+            </p>
+            <p class="about-para">With user-friendly browsing features, secure payment options, and prompt delivery services, we strive to make your shopping experience seamless and hassle-free. Your satisfaction is our priority, and we're constantly evolving to meet your needs and exceed your expectations.
+            </p>
+            <p class="about-para">Thank you for choosing our bookstore as your trusted partner in academic success. We look forward to accompanying you on your journey towards becoming a successful engineer.
+            </p>
+            <p class="about-para">Happy reading!</p>
+            <p class="about-para">Books'kart Team</p>
+          </div>
+        </div>
+        </section>
+
+        <section id="feedback_section" class="feedback_section">
+          <h2 class="feedback-title">Feedbacks:</h2>
+          <div id="all-feedback" class="all-feedback hidden">
+            <hr>
+          </div>
+          <div class="feedback-entry">
+            <h2>Leave FeedBack</h2>
+            <input class="input input--name" type="text" placeholder="Name (Optional)" /> <br />
+          <textarea
+            class="input input--feedback"
+            id="new_feedback"
+            cols="50"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <div class="flex_center">
+            <button class="btn" id="recommend_btn" onclick="addFeedback()">
+              Submit
+            </button>
+          </div>
+          </div>
+        </section>
+      </main>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
