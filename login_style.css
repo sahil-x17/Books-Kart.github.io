@@ -87,6 +87,10 @@ input::placeholder {
   background-color: orangered;
 }
 
+.btn2--cancle {
+  background-color: orangered;
+}
+
 .btn:hover {
   cursor: pointer;
   background-color: #3f834a;
